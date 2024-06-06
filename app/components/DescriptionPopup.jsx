@@ -8,7 +8,9 @@ const DescriptionPopup = (props) => {
       if (popupRef.current && !popupRef.current.contains(event.target)) {
         props.onClose();
       }
-    };
+    }; 
+
+    // 
 
     document.addEventListener("mousedown", handleOutsideClick);
 
