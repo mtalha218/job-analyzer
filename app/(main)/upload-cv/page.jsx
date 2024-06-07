@@ -43,6 +43,7 @@ const UploadCV = () => {
         <input
           type="file"
           ref={fileInputRef}
+          accept=".pdf, .doc, .docx"
           style={{ display: "none" }}
           onChange={(e) => handleFileUpload(e.target.files)}
           multiple
