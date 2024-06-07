@@ -52,7 +52,7 @@ const UploadCV = () => {
           Upload new CVs
         </button>
       </div>
-      <div className="w-full flex justify-center mt-14">
+      <div className="w-full flex justify-center mt-7">
       <button className="text-center bg-[#144D00] px-14 py-4 font-semibold text-2xl">Analyze <br/>(10 tokens) </button>
       </div>
 
